@@ -1,3 +1,5 @@
+/* Standard */
+
 body{
 	border:3px solid black;
 	margin:auto;
@@ -18,14 +20,17 @@ h1{
 }
 
 h2{
-	
+	margin:10px;
+	padding: 0;
 }
+
+/* Clear */
 
 .clr{
 	clear:both;
 }
 
-/* Contact Info Block*/
+/* Contact Info Block */
 
 #contactInfo{
 	float:right;
@@ -44,9 +49,30 @@ h2{
 	font-size: 30px;
 }
 
+/* SECTIONS */
+
 .section{
 	border: 3px solid black;
 	min-height: 80px;
 	margin: 20px;
-
 }
+
+/* EXPERIENCE */
+
+#jobs{
+	float:left;
+	width:50%;
+}
+
+#jobs ul{
+	list-style: none;
+	margin-right:100px;
+}
+
+#jobs li{
+	font-family: Cambria;
+	font-size: 20px;
+	text-align: right;
+	padding:40px 0px;
+}
+
