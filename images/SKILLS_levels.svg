@@ -15,7 +15,10 @@
    version="1.1"
    id="svg852"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="SKILLS_levels.svg">
+   sodipodi:docname="SKILLS_levels.svg"
+   inkscape:export-filename="C:\Users\malak\Documents\HTML Resume\images\SKILLS_levels.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
   <defs
      id="defs846" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="41.816767"
-     inkscape:cy="565.41744"
+     inkscape:cx="-41.882431"
+     inkscape:cy="619.26408"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -501,13 +504,7 @@
        cy="203.73796"
        cx="160.51076"
        id="circle2544"
-       style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <circle
-       r="6.9245567"
-       cy="203.73796"
-       cx="160.51076"
-       id="circle2546"
-       style="opacity:1;vector-effect:none;fill:#090909;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;vector-effect:none;fill:#a6a6a6;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <circle
        r="6.9245567"
        cy="203.73796"
@@ -563,14 +560,8 @@
        id="circle2566"
        style="opacity:1;vector-effect:none;fill:#090909;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <circle
-       style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#a6a6a6;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle2568"
-       cx="133.17046"
-       cy="167.1967"
-       r="6.9245567" />
-    <circle
-       style="opacity:1;vector-effect:none;fill:#090909;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle2570"
        cx="133.17046"
        cy="167.1967"
        r="6.9245567" />
@@ -916,5 +907,11 @@
        cx="78.945656"
        id="circle3422"
        style="opacity:1;vector-effect:none;fill:#090909;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#090909;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle3918"
+       cx="161.1407"
+       cy="240.40166"
+       r="6.9245567" />
   </g>
 </svg>
