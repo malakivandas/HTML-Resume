@@ -24,8 +24,16 @@ h2{
 	padding: 0;
 	width:100%;
 	font-family:Arial, sans-serif;
-	font-size:40px;
+	font-size:50px;
 	/*border:3px solid black; /*Reference border*/
+}
+
+h5{
+	font-family: Arial;
+	font-size:30px;
+	padding:0;
+	margin:0;
+	margin-left:20px;
 }
 
 /* Clear */
@@ -75,17 +83,31 @@ h2{
 	position:relative;
 }
 
-#ASSETSsection{
+#ATTINTsection{
 	float:right;
-	width:30%;
+	width:32%;
+}
+
+#ATTRIBUTESsection{
+	position:top;
 	border: 3px solid black;
 	min-height: 80px;
 	margin: 20px;
 	margin-left:0;
 	margin-top:0px;
 	padding: 0;
-	position:relative;
 }
+
+#INTERESTSsection{
+	position:bottom;
+	min-height: 80px;
+	margin: 20px;
+	margin-left:0;
+	margin-top:0px;
+	padding: 0;
+	border:3px solid black; /*Reference border*/
+}
+
 
 /* EXPERIENCE */
 
@@ -152,6 +174,14 @@ h2{
 	padding-top:25px; /*Center first job description*/
 }
 
+#experienceBar{
+	float:center;
+	width:5%;
+	padding: 50px 19px;
+	padding-bottom: 80px;
+	/* border:3px solid black; /*Reference border*/
+	box-sizing:border-box;
+}
 
 /* EDUCATION */
 
@@ -191,12 +221,50 @@ h2{
 /* SKILLS */
 
 #SKILLSsection ul{
+	float:left;
 	font-family: Cambria;
 	font-size: 40px;
 	list-style: none;
 	margin:0;
+	margin-left: 50px;
+	text-align:right;
 }
 
 #SKILLSsection li{
-	padding:15px;
+	padding:15.75px 0px;
+}
+
+
+
+
+#skillsLevels{
+	float:right;
+	width:35%;
+	padding:40px;
+	padding-top: 23px;
+	margin-right:60px;
+}
+
+/* ASSETS */
+
+#ATTRIBUTESsection ul{
+	margin:10px 40px;
+	margin-bottom:30px;
+}
+
+#ATTRIBUTESsection li{
+	font-family: Cambria;
+	font-size: 30px;
+}
+
+/* INTERESTS */
+
+#INTERESTSsection ul{
+	margin:10px 40px;
+	margin-bottom:30px;
+}
+
+#INTERESTSsection li{
+	font-family: Cambria;
+	font-size: 30px;
 }
