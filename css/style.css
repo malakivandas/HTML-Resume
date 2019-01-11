@@ -22,8 +22,10 @@ h1{
 h2{
 	margin:10px;
 	padding: 0;
+	width:100%;
 	font-family:Arial, sans-serif;
 	font-size:30px;
+	/*border:3px solid black; /*Reference border*/
 }
 
 /* Clear */
@@ -57,6 +59,7 @@ h2{
 	border: 3px solid black;
 	min-height: 80px;
 	margin: 20px;
+	padding: 0;
 	position:relative;
 }
 
@@ -64,27 +67,99 @@ h2{
 
 #jobs{
 	float:left;
-	width:50%;
+	width:47.5%;
+	/* border:3px solid black; /*Reference border*/
+	box-sizing:border-box;
 }
+
+#job_descriptions{
+	float:right;
+	width:47.5%;
+	/* border:3px solid black; /*Reference border*/
+	box-sizing:border-box;
+}
+
+#experienceBar{
+	float:center;
+	width:5%;
+	padding: 50px 19px;
+	/* border:3px solid black; /*Reference border*/
+	box-sizing:border-box;
+}
+
+/*Jobs list*/
 
 #jobs ul{
 	list-style: none;
 	margin:0;
 	margin-right:100px;
-	border:3px solid black;
+	/* border:3px solid black; /*Reference border*/
 }
 
 #jobs li{
 	font-family: Cambria;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: right;
-	padding:40px 0px;
+	padding:68px 0px; /*Spread jobs out*/
 }
 
-#EXPERIENCE_bar{
-
+#jobs li:first-child{
+	padding-top:98px; /*Center first job*/
 }
 
-#EXPERIENCE_bar a{
-	float:center;
+/*Job descriptions list*/
+
+#job_descriptions ul{
+	list-style: none;
+	margin:0;
+	margin-left:100px;
+	/*border:3px solid black; /*Reference border*/
+}
+
+#job_descriptions li{
+	font-family: Cambria;
+	font-size: 30px;
+	text-align: left;
+	padding:10px 0px; /*Spread job descriptions out*/
+}
+
+#job_descriptions li:first-child{
+	padding-top:25px; /*Center first job description*/
+}
+
+
+/* EDUCATION */
+
+.section #school{
+	float:left;
+	font-family: Cambria;
+	font-size:30px;
+	font-weight: bold;
+	padding-left:30px;
+	margin:0;
+	margin-top:20px;
+	/*border:3px solid black; /*Reference border*/
+}
+
+.section #time{
+	float:left;
+	font-family: Cambria;
+	font-size:30px;
+	font-weight: bold;
+	color: darkgrey;
+	padding-left:30px;
+	margin:0;
+	margin-top:20px;
+	/*border:3px solid black; /*Reference border*/
+}
+
+.section #degree{
+	top:0;
+	margin:0;
+	margin-top:15px;
+	margin-bottom: 30px;
+	font-family: Cambria;
+	font-size:30px;
+	padding-left:30px;
+	/*border:3px solid black; /*Reference border*/
 }
