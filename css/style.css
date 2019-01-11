@@ -1,10 +1,10 @@
 /* Standard */
 
 body{
-	border:3px solid black;
+	/*border:3px solid black;*/
 	margin:auto;
 	margin-top: 40px;
-	padding:100px;
+	padding:50px 100px;
 	width:1700px;
 	height:2200px;
 	position:relative;
@@ -74,6 +74,7 @@ h5{
 #SKILLSsection{
 	float:left;
 	width:65%;
+	height:37%;
 	border: 3px solid black;
 	min-height: 80px;
 	margin: 20px;
@@ -86,26 +87,30 @@ h5{
 #ATTINTsection{
 	float:right;
 	width:32%;
+	height:37%;
+	margin-bottom: 20px;
+	box-sizing:border-box;
 }
 
 #ATTRIBUTESsection{
-	position:top;
+	float:top;
 	border: 3px solid black;
 	min-height: 80px;
 	margin: 20px;
 	margin-left:0;
 	margin-top:0px;
 	padding: 0;
+	box-sizing:border-box;
 }
 
 #INTERESTSsection{
-	position:bottom;
+	float:bottom;
 	min-height: 80px;
-	margin: 20px;
-	margin-left:0;
-	margin-top:0px;
+	margin: 0px;
+	margin-right: 20px;
 	padding: 0;
 	border:3px solid black; /*Reference border*/
+	box-sizing:border-box;
 }
 
 
@@ -113,22 +118,21 @@ h5{
 
 #jobs{
 	float:left;
-	width:30%;
+	width:35%;
 	/* border:3px solid black; /*Reference border*/
 	box-sizing:border-box;
 }
 
 #job_descriptions{
-	float:right;
-	width:60%;
+	float:left;
+	width:55%;
 	/* border:3px solid black; /*Reference border*/
 	box-sizing:border-box;
 }
 
 #experienceBar{
-	float:center;
-	width:5%;
-	margin-right: 60px;
+	float:left;
+	width:5.1%;
 	padding: 70px 19px;
 	padding-bottom: 80px;
 	/* border:3px solid black; /*Reference border*/
@@ -140,7 +144,7 @@ h5{
 #jobs ul{
 	list-style: none;
 	margin:0;
-	padding: 0;
+	padding:40px 0;
 	margin-right:100px;
 	/* border:3px solid black; /*Reference border*/
 }
@@ -149,11 +153,20 @@ h5{
 	font-family: Cambria;
 	font-size: 30px;
 	text-align: right;
-	padding:5px 0px; /*Spread jobs out*/
+	padding:3px 0px; /*Spread jobs out*/
+}
+
+#jobs ul:first-child{
+	padding-top:20px; /*Center first job*/
 }
 
 #jobs li:first-child{
-	padding-top:40px; /*Center first job*/
+	color:darkgrey;
+	font-style: italic; /*Center first job*/
+}
+
+#jobs li:nth-child(2){
+	font-weight: bold; /*Center first job*/
 }
 
 /*Job descriptions list*/
@@ -161,7 +174,8 @@ h5{
 #job_descriptions ul{
 	list-style: none;
 	margin:0;
-	margin-left:40px;
+	margin-left:100px;
+	padding:40px 0;
 	/*border:3px solid black; /*Reference border*/
 }
 
@@ -169,10 +183,10 @@ h5{
 	font-family: Cambria;
 	font-size: 30px;
 	text-align: left;
-	padding:10px 0px; /*Spread job descriptions out*/
+	padding:3px 0px; /*Spread job descriptions out*/
 }
 
-#job_descriptions li:first-child{
+#job_descriptions ul:first-child{
 	padding-top:25px; /*Center first job description*/
 }
 
@@ -183,7 +197,7 @@ h5{
 	font-family: Cambria;
 	font-size:30px;
 	font-weight: bold;
-	padding-left:30px;
+	padding-left:50px;
 	margin:0;
 	margin-top:20px;
 	/*border:3px solid black; /*Reference border*/
@@ -207,7 +221,7 @@ h5{
 	margin-bottom: 30px;
 	font-family: Cambria;
 	font-size:30px;
-	padding-left:30px;
+	padding-left:120px;
 	/*border:3px solid black; /*Reference border*/
 }
 
