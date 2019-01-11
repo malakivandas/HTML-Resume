@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-379.59303"
-     inkscape:cy="248.28651"
+     inkscape:zoom="0.35"
+     inkscape:cx="-225.70565"
+     inkscape:cy="1094.915"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,39 +53,42 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g844"
-       transform="matrix(0.43557466,0,0,0.43557466,14.548303,32.628192)"
+       id="g3937"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150">
       <path
          inkscape:connector-curvature="0"
          id="path815"
-         d="M 79.833561,-1.275029 V 426.7687"
-         style="fill:none;stroke:#000000;stroke-width:18.03441238;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <circle
-         r="13.530304"
-         cy="-3.6741593"
-         cx="79.833565"
-         id="path817"
-         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle821"
-         cx="79.833565"
-         cy="424.2399"
-         r="13.530304" />
-      <circle
-         r="13.530304"
-         cy="281.6019"
-         cx="79.833565"
-         id="circle823"
-         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:5.29166651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle825"
-         cx="79.833565"
-         cy="138.96388"
-         r="13.530304" />
+         d="M 49.321779,-6.8587256 V 218.51782"
+         style="fill:none;stroke:#000000;stroke-width:8.637;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="translate(0,-18.392531)"
+         id="g3929">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.3049159;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path817"
+           cx="49.321781"
+           cy="31.027821"
+           r="5.8934574" />
+        <circle
+           r="5.8934574"
+           cy="217.41634"
+           cx="49.321781"
+           id="circle821"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.3049159;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <circle
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.3049159;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="circle823"
+           cx="49.321781"
+           cy="155.28685"
+           r="5.8934574" />
+        <circle
+           r="5.8934574"
+           cy="93.157341"
+           cx="49.321781"
+           id="circle825"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.3049159;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
     </g>
   </g>
 </svg>
