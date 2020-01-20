@@ -1,0 +1,19 @@
+#timeline_line{
+    border-radius: 15px;
+    width: 30px;
+    height: 900px;
+    background: red;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+#timeline_point{
+
+    border-radius: 20px;
+    border: red 5px;
+    background: white;
+    width: 40px;
+    height: 40px;
+    
+  }
