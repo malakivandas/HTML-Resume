@@ -41,94 +41,71 @@ h5{
 	clear:both;
 }
 
-/*Introduction*/
-
-#introduction{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-/* Name and Description Info Block */
+/* Contact Info Block */
 
 #name-desc{
+	float: left;
 }
 
 #name{
 	margin:20px;
 	margin-bottom: 0;
 	font-family: Arial, sans-serif;
-	font-size:70px;
+	font-size:50px;
 	font-weight: bold;
 }
 
-#outline{
-	font-size: 20px;
-	margin: 20px;
-	margin-left: 30px;
-}
-
 #desc{
-	font-size: 20px;
 	margin: 20px;
-	margin-left: 30px;
 }
-
-/* Contact Info Block */
 
 #contact{
-	display: flex;
-	flex-direction: column;
+	float:right;
 	border: 3px solid black;
 	min-height: 80px;
 	margin: 20px;
 	margin-bottom: 0;
 	padding: 0;
-}
-
-#contact div{
-	display: flex;
-	flex-direction: row;
-	height: 60px;
+	padding-bottom: 10px;
 }
 
 #house_icon{
-	padding-top: 3px;
+	float:left;
+	width:40px;
 }
 
 #phone_icon{
-	padding-top: 8px;
+	float:left;
+	width:40px;
+	margin-top: 1px;
 }
 
 #email_icon{
-	padding-top: 10px;
+	float:left;
+	width:40px;
+	padding-top: 5px;
 }
 
 #github_icon{
+	float:left;
+	width:50px;
 	padding-top: 5px;
 }
 
 .contact_icon{
-	width: 40px;
+	padding:10px;
+	box-sizing:border-box;
 }
 
-#contact a{
-	margin:auto 10px;
-}
 
 .contact_info{
+	float:left;
 	font-family: Cambria;
 	font-size:30px;
-	margin:auto 0 auto 0;
-	padding:0 30px;
-	white-space: nowrap;
-}
-
-#double_line{
-	margin: 20px;
-	width: 97.7%;
-	height: 5px;
-	border-bottom: double 10px;
+	margin:0;
+	padding-left:30px;
+	text-align: right;
+	/*border:3px solid black; /*Reference border*/
 }
 
 /* SECTIONS */
