@@ -6,14 +6,19 @@
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+    padding: 5% 0;
   }
 
 #timeline_point{
 
-    border-radius: 20px;
-    border: red 5px;
+    border-radius: 50%;
+    border: red 10px solid;
     background: white;
     width: 40px;
     height: 40px;
-    
+
   }
