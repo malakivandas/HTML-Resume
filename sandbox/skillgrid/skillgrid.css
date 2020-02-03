@@ -35,17 +35,27 @@ body{
 
 /* Skillgrid */
 
-#skillgrid{
-      /* width: 400px;
-      height: 660px; */
-      background: blue;
-      margin: auto;
+#SKILLS_SECTION{
+  /* width: 400px;
+  height: 660px; */
+  background: blue;
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#skillgrid{
+/* width: 400px;
+height: 660px; */
+background: yellow;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
 
 .skillbar{
     display:flex;
@@ -99,6 +109,16 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.skill_label {
+
+  min-width: 60px;
+  padding: 0 10px;
+
+  font-size: 20px;
+  text-align: center;
+
 }
 
 #add_remove {

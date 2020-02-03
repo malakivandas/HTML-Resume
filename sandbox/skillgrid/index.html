@@ -6,14 +6,45 @@
         <title>HTML Resume - Skillgrid</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="skillgrid.css">
+        <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
     </head>
     <body>
        
         <!-- Skillgrid -->
-        <div id="skillgrid">
+        <div id="SKILLS_SECTION">
+            <script src="./add_skillbar.js"></script>
+            <script src="./last_skillbar.js"></script>
 
-            <script src="./skillgrid.js"></script>
+            <script>
+            function hello() {
+                alert("helllooooo");
+            }
+            </script>
+
+            <div id="skillgrid">
+
+            </div>
+
+            <div id="add_remove">
+
+                <button id="remove_skillbar"  class="add_remove_skillbar">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-12v-2h12v2z"/>
+                    </svg>
+                    
+                </button>
+                
+                <button onclick="add_skillbar(8)" id="add_skillbar"  class="add_remove_skillbar">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"/>
+                    </svg>
+                </button>
+
+            </div>
+            
+
+            
             
         </div>
 

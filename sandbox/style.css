@@ -101,6 +101,16 @@ body{
   justify-content: center;
 }
 
+.skill_label {
+
+  min-width: 60px;
+  padding: 0 10px;
+
+  font-size: 20px;
+  text-align: center;
+
+}
+
 #add_remove {
   width: 100%;
 

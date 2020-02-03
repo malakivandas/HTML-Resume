@@ -1,8 +1,9 @@
-function last_skillbar () {
+function last_id_number() {
 
-    var last_skillbar_id = document.getElementById('skillgrid').childElementCount;
-    console.log(last_skillbar_id);
+    //Get the last skillbar's id number
+    var last_id_number = $("#skillgrid > div").length;
+    console.log(last_id_number);
 
-    return last_skillbar_id;
+    return last_id_number;
 
 }
