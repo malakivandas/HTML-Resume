@@ -1,8 +1,8 @@
 function add_skillbar(num_skillpoints) {
 
     //Generate skillbar ID
-    id_prefix = "skillbar_"
-    id_number = last_id_number() + 1;
+    id_prefix = "skillbar_";
+    id_number = last_skillbar() + 1;
     var skillbar_id = id_prefix.concat(id_number);
     console.log(skillbar_id);
 
