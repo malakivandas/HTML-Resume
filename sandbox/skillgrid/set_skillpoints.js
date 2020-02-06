@@ -42,7 +42,7 @@ function set_skillpoints(skillpoint_id, skillpoint_class) {
     if(skillpoint_class == 'filled_skillpoint') {
 
         //Loop through all skillpoints ahead clicked and change all to unfilled
-        for(var idx = num_skillpoints; idx > skillpoint_number; idx--) {
+        for(var idx = num_skillpoints; idx > skillpoint_number - 1; idx--) {
 
             console.log(idx);
             var skillpoint = document.getElementById('skillpoint_'.concat(skillbar_number, '_', idx));
