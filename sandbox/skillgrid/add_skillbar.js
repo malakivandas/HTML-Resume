@@ -22,21 +22,18 @@ function add_skillbar(num_skillpoints) {
 
     //Generate unfilled skillpoints
     for(var idx = 0; idx < num_skillpoints; idx++) {
+
         var skillpoint = document.createElement("BUTTON");
         skillpoint.setAttribute("class", "unfilled_skillpoint");
         skillpoint.setAttribute("id", "skillpoint_".concat(id_number, "_", idx+1));
 
-        console.log(skillpoint.value);
+        console.log(skillpoint.id);
 
-        skillpoint.addEventListener("click", setSkillLevel);
-
+        skillpoint.onclick = function() {
+            set_skillpoints(this.id, this.className)
+        }
+    
         document.getElementById(skillbar_id).appendChild(skillpoint);
     }
-
-}
-
-function setSkillLevel() {
-
-    alert("hellllllooooooooo");
 
 }
