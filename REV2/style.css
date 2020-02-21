@@ -1,0 +1,48 @@
+/* ---------- TEMPLATE ---------- */
+
+@page {
+    size: 7in 9.25in;
+    margin: 0;
+}
+
+body{
+	border:3px solid black;
+    margin: 0;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ---------- CONTAINERS ---------- */
+
+.CONTAINER {
+
+    border:3px solid blue;
+
+}
+
+#BODY {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#EPEI { /* Experience, Projects, Education, Interests */
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ---------- SECTIONS ---------- */
+
+
+.SECTION {
+    border:3px solid black;
+    margin: 10px;
+}
+
+/* 
