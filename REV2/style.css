@@ -1,5 +1,5 @@
 /* ---------- TEMPLATE ---------- */
-
+/*#region*/
 @page {
     size: 7in 9.25in;
     margin: 0;
@@ -13,10 +13,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+/*#endregion*/
 
 
 /* ---------- CONTAINERS ---------- */
-
+/*#region*/
 .CONTAINER {
 
     border:3px solid blue;
@@ -36,13 +37,62 @@ body{
     flex-direction: column;
 
 }
+/*#endregion*/
+
 
 /* ---------- SECTIONS ---------- */
-
-
+/*#region*/
 .SECTION {
     border:3px solid black;
     margin: 10px;
 }
+/*#endregion*/
 
-/* 
+/* INTRO */
+
+/* CONTACT */
+/*#region*/
+
+#CONTACT {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact_block {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#house_icon{
+	padding-top: 3px;
+}
+
+#phone_icon{
+	padding-top: 8px;
+}
+
+#email_icon{
+	padding-top: 10px;
+}
+
+#github_icon{
+	padding-top: 5px;
+}
+
+.contact_icon{
+	width: 40px;
+}
+
+.contact_info{
+	font-family: Cambria;
+	font-size:30px;
+	margin:auto 0 auto 0;
+	padding:0 30px;
+	white-space: nowrap;
+}
+/*#endregion*/
+
