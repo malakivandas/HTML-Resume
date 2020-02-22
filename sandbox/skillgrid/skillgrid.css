@@ -6,33 +6,6 @@ body{
 
 }
 
-/* Timeline */
-
-#timeline_line{
-    border-radius: 15px;
-    width: 30px;
-    height: 900px;
-    background: red;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    margin: 50px;
-    padding: 5% 0;
-  }
-
-#timeline_point{
-
-    border-radius: 50%;
-    border: red 10px solid;
-    background: white;
-    width: 40px;
-    height: 40px;
-
-  }
-
 /* Skillgrid */
 
 #SKILLS_SECTION{
@@ -95,32 +68,6 @@ justify-content: center;
   margin: 10px;
 }
 
-/* Skillgrid 2.0 */
-
-#skillgrid2{
-  /* width: 400px;
-  height: 660px; */
-  background: blue;
-  margin: auto;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#skillgrid2_pallette{
-  /* width: 400px;
-  height: 660px; */
-  background: blue;
-  margin: auto;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .skill_label {
 
   min-width: 60px;
@@ -157,12 +104,4 @@ justify-content: center;
 .add_remove_skillbar svg {
   height: 100%;
   width: 100%;
-}
-
-
-/* Learning */
-
-#learning_js {
-    width: 100px;
-    background: green;
 }

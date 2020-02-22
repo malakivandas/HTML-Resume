@@ -1,14 +1,19 @@
 /* ---------- TEMPLATE ---------- */
 /*#region*/
-@page {
-    size: 7in 9.25in;
+@page{
+    height: 9.25in;
+    width: 7in; 
     margin: 0;
+    padding: 0;
 }
 
 body{
-	border:3px solid black;
-    margin: 0;
+	border:3px solid blue;
+    margin: auto;
     padding: 10px;
+
+    height: 10.75in;
+    width: 8.25in; 
 
     display: flex;
     flex-direction: column;
@@ -20,7 +25,7 @@ body{
 /*#region*/
 .CONTAINER {
 
-    border:3px solid blue;
+    border: 0;
 
 }
 
@@ -29,24 +34,31 @@ body{
     display: flex;
     flex-direction: row;
 
+    flex-grow: 1;
+
 }
 
 #EPEI { /* Experience, Projects, Education, Interests */
 
+    /* Parent */
     display: flex;
     flex-direction: column;
+    
+    /* Child */
+    flex-grow: 2;
+    max-width: 65.574%;
 
 }
 /*#endregion*/
 
 
 /* ---------- SECTIONS ---------- */
-/*#region*/
+
 .SECTION {
     border:3px solid black;
     margin: 10px;
+    overflow: hidden;
 }
-/*#endregion*/
 
 /* INTRO */
 
@@ -89,10 +101,240 @@ body{
 
 .contact_info{
 	font-family: Cambria;
-	font-size:30px;
+	font-size:10px;
 	margin:auto 0 auto 0;
 	padding:0 30px;
 	white-space: nowrap;
 }
 /*#endregion*/
 
+
+/* SKILLS */
+/*#region*/
+
+#SKILLS {
+
+    flex-grow: 1;
+    max-width: 31.144%;
+
+    background: blue;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+#skillgrid{
+    /* width: 400px;
+    height: 660px; */
+    background: green;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillbar{
+    display:flex;
+    flex-direction: row;
+
+    width: 100%;
+    background: purple;
+}
+
+.filled_skillpoint{
+    border: solid red 5px;
+    border-radius: 50%;
+    background: red;
+
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.unfilled_skillpoint{
+    border: solid red 5px;
+    border-radius: 50%;
+    background: yellow;
+
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.halffilled_skillpoint{
+    border: solid red 5px;
+    border-radius: 50%;
+    background: orange;
+
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.skill_label {
+
+    min-width: 60px;
+    padding: 0 10px;
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#add_remove {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.add_remove_skillbar {
+    height: 20px;
+    width: 20px;
+    margin: 5px 0;
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+
+    /* (Flex child of add-remove) */
+
+    cursor: pointer;
+}
+
+.add_remove_skillbar svg {
+    height: 100%;
+    width: 100%;
+}
+
+/*#endregion*/
+
+/* EXPERIENCE */
+/*#region*/
+
+#EXPERIENCE {
+
+    position: relative;
+
+    flex-grow: 7;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Experience Entry (Info and Description) */
+
+.experience_entry {
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.experience_info {
+
+    font-size: 10px;
+
+}
+
+.experience_description {
+
+    width: 300px;
+
+}
+
+.position_duration {
+
+}
+
+.position_title {
+
+}
+
+.position_company {
+
+}
+
+/* Timeline (Background) */
+
+#timeline_line{
+    border-radius: 15px;
+    width: 12px;
+    height: 85%;
+    background: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5% 0;
+    position: absolute;
+    left: 35%;
+    top: 2.5%;
+
+    z-index: -100;
+  }
+
+#timeline_point{
+
+    border-radius: 50%;
+    border: black 7.5px solid;
+    background: white;
+    width: 20px;
+    height: 20px;
+
+  }
+
+
+/*#endregion*/
+
+/* PROJECTS */
+/*#region*/
+
+#PROJECTS {
+
+    flex-grow: 2;
+
+}
+
+
+/*#endregion*/
+
+/* EDUCATION */
+/*#region*/
+
+#EDUCATION {
+
+    flex-grow: 1;
+
+}
+
+/*#endregion*/
+
+/* INTERESTS */
+/*#region*/
+
+#INTERESTS {
+
+    flex-grow: 1;
+
+}
+
+
+/*#endregion*/
+
+/* TEMPLATE */
+/*#region*/
+
+
+/*#endregion*/

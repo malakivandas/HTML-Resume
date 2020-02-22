@@ -5,6 +5,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     </head>
     <body>
 
@@ -23,7 +24,7 @@
 				<a href="#">
 				<img id="house_icon" class="contact_icon" src="images/house.png" alt="Address" />
 				</a>
-                <p class="contact_info">1733 Howroyd Pl., Victoria, BC, V8P3C2</p>
+                <p class="contact_info">1733 Howroyd Ave., Victoria, BC, V8P3C2</p>
                 
 			</div>
 			<div class="contact_block">
@@ -57,14 +58,105 @@
 
             <div id="EPEI" class="CONTAINER">
 
-                <div id="EXPERIENCE" class="SECTION"></div>
+                <div id="EXPERIENCE" class="SECTION">
+
+                    
+                    
+                    <div class="experience_entry">
+
+                        <div class="experience_info">
+
+                            <p class="position_duration">September 2019 - </p>
+                            <p class="position_title">Member</p>
+                            <p class="position_company">VikeLabs (Student Organization)</p>
+
+                        </div>
+
+                        <div class="experience_description">
+
+                            <ul>
+                                <li>Research for Typescript, HTML, CSS, Javascript, React, and ARIA</li>
+                                <li>Attending tutorials for GitHub, Typescript, React</li>
+                                <li>React/Typescript development of Lecshare, a post-secondary lecture assistant</li>
+
+                            </ul>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <div class="experience_entry">
+
+                        <div class="experience_info">
+
+                            <p class="position_duration">September 2017 - December 2017</p>
+                            <p class="position_title">Assistant Machinist</p>
+                            <p class="position_company">UVic MECH Machine Shop</p>
+
+                        </div>
+
+                        <div class="experience_description">
+
+                            <ul>
+                                <li>CNC manufacturing of prototypical components</li>
+                                <li>"Workflow planning" - staging work to find the most efficient sequence of tasks</li>
+                                <li>Advising on engineering design of research students</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div id="timeline_line">
+                        <div id="timeline_point"></div>
+                        <div id="timeline_point"></div>
+                        <div id="timeline_point"></div>
+                        <div id="timeline_point"></div>
+                        <div id="timeline_point"></div>
+                    </div>
+                    
+
+                </div>
+
                 <div id="PROJECTS" class="SECTION"></div>
                 <div id="EDUCATION" class="SECTION"></div>
                 <div id="INTERESTS" class="SECTION"></div>
 
             </div>
 
-            <div id="SKILLS" class="SECTION"></div>
+            <div id="SKILLS" class="SECTION">
+
+                <script src="./js/add_skillbar.js"></script>
+                <script src="./js/remove_skillbar.js"></script>
+                <script src="./js/last_skillbar.js"></script>
+                <script src="./js/set_skillpoints.js"></script>
+
+                <div id="skillgrid">
+
+                </div>
+    
+                <div id="add_remove">
+    
+                    <button onclick="remove_skillbar()" id="remove_skillbar"  class="add_remove_skillbar">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-12v-2h12v2z"/>
+                        </svg>
+                        
+                    </button>
+                    
+                    <button onclick="add_skillbar(5)" id="add_skillbar"  class="add_remove_skillbar">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"/>
+                        </svg>
+                    </button>
+    
+                </div>
+
+
+            </div>
 
         </div>
 
