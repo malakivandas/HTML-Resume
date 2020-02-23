@@ -1,4 +1,4 @@
-/* ---------- TEMPLATE ---------- */
+/* ---------- PAGE ---------- */
 /*#region*/
 @page{
     height: 9.25in;
@@ -20,6 +20,37 @@ body{
 }
 /*#endregion*/
 
+/* ---------- GENERAL ---------- */
+/*#region*/
+
+    h1 {
+
+        font-family: "Verdana", Arial;
+        font-weight: bold;
+
+        margin: 0;
+
+    }
+
+    h2 {
+
+        font-family: "Verdana", Arial;
+        font-weight: bold;
+        font-size: 20px;
+
+        margin: 0;
+
+    }
+
+    h3 {
+
+        font-family: "Verdana", Arial;
+
+        margin: 0;
+
+    }
+
+/*#endregion*/
 
 /* ---------- CONTAINERS ---------- */
 /*#region*/
@@ -67,8 +98,12 @@ body{
 
 #CONTACT {
 
+    padding: 5px;
+
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -76,34 +111,29 @@ body{
 
     display: flex;
     flex-direction: row;
+    align-items: center;
 
 }
 
-#house_icon{
-	padding-top: 3px;
-}
+.contact_block a {
 
-#phone_icon{
-	padding-top: 8px;
-}
+    height: 20px;
 
-#email_icon{
-	padding-top: 10px;
-}
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
-#github_icon{
-	padding-top: 5px;
 }
 
 .contact_icon{
-	width: 40px;
+    width: 20px;
 }
 
 .contact_info{
 	font-family: Cambria;
-	font-size:10px;
-	margin:auto 0 auto 0;
-	padding:0 30px;
+	font-size:12px;
+	margin: 0;
+	padding:0 0 0 10px;
 	white-space: nowrap;
 }
 /*#endregion*/
@@ -122,14 +152,22 @@ body{
     /* Parent Flex */
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+}
+
+#skills_container {
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 #skillgrid_container {
 
     width: 100%;
-    background: blue;
     flex-grow: 1;
     position: relative; /* For the add/remove to float below */
   
@@ -201,7 +239,7 @@ body{
     width: 100%;
 
     position: absolute;
-    top: 100%;
+    bottom: 0;
     z-index: 100;
 
     display: none;
@@ -238,13 +276,20 @@ body{
 
 #EXPERIENCE {
 
-    position: relative;
-
     flex-grow: 7;
 
     display: flex;
     flex-direction: column;
 
+}
+
+#experience_container {
+
+    flex: 1;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
 }
 
 /* Experience Entry (Info and Description) */
@@ -271,6 +316,12 @@ body{
 
 }
 
+.experience_description li{
+
+    list-style-image: url("./images/right-arrow.svg");
+
+}
+
 .position_duration {
 
 }
@@ -282,6 +333,8 @@ body{
 .position_company {
 
 }
+
+
 
 /* Timeline (Background) */
 
