@@ -117,28 +117,44 @@ body{
     flex-grow: 1;
     max-width: 31.144%;
 
+    overflow: visible; /* For the add/remove */
+  
+    /* Parent Flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#skillgrid_container {
+
+    width: 100%;
     background: blue;
+    flex-grow: 1;
+    position: relative; /* For the add/remove to float below */
   
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+
 }
-  
+
 #skillgrid{
-    /* width: 400px;
-    height: 660px; */
-    background: green;
+    width: 100%;
+    flex-grow: 1;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .skillbar{
     display:flex;
     flex-direction: row;
+
+    justify-content: space-around;
 
     width: 100%;
     background: purple;
@@ -149,34 +165,31 @@ body{
     border-radius: 50%;
     background: red;
 
-    height: 40px;
-    width: 40px;
-    margin: 10px;
+    height: 20px;
+    width: 20px;
 }
 
 .unfilled_skillpoint{
-    border: solid red 5px;
+    border: solid red 2px;
     border-radius: 50%;
     background: yellow;
 
-    height: 40px;
-    width: 40px;
-    margin: 10px;
+    height: 20px;
+    width: 20px;
 }
 
 .halffilled_skillpoint{
-    border: solid red 5px;
+    border: solid red 2px;
     border-radius: 50%;
     background: orange;
 
-    height: 40px;
-    width: 40px;
-    margin: 10px;
+    height: 20px;
+    width: 20px;
 }
 
 .skill_label {
 
-    min-width: 60px;
+    width: 20px;
     padding: 0 10px;
 
     font-size: 20px;
@@ -187,11 +200,17 @@ body{
 #add_remove {
     width: 100%;
 
-    display: flex;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+
+    display: none;
     flex-direction: row;
     justify-content: space-evenly;
 
 }
+
+#skillgrid_container:hover #add_remove {display: flex;}
 
 .add_remove_skillbar {
     height: 20px;
