@@ -280,6 +280,21 @@ body{
     font-family: "Verdana", Arial;
 
     margin: 0;
+    margin-top: 10px;
+
+    font-size: 15px;
+
+}
+
+.skill_descriptions li {
+
+    font-size: 12px;
+
+}
+
+.skill_descriptions ul {
+
+    margin: 0;
 
 }
 
@@ -382,6 +397,12 @@ body{
     height: 20px;
 
   }
+
+#student_organization {
+
+    font-size: 12px;
+
+}
 
 
 /*#endregion*/
