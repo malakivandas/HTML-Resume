@@ -8,7 +8,7 @@
 }
 
 body{
-	border:3px solid blue;
+	border: none;
     margin: auto;
     padding: 10px;
 
@@ -44,12 +44,21 @@ h2 {
 
 }
 
+h3 {
+
+    font-size: 13px;
+    font-family: Verdana, Arial;
+
+}
+
 p {
     font-family: Cambria;
+    font-size: 13px;
 }
 
 li {
     font-family: Cambria;
+    font-size: 13px;
     list-style-image: url("./images/right-arrow.svg");
 }
 
@@ -89,6 +98,7 @@ input {
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     flex-grow: 1;
 
@@ -102,7 +112,7 @@ input {
     
     /* Child */
     flex-grow: 2;
-    max-width: 65.574%;
+    max-width: 62%;
 
 }
 /*#endregion*/
@@ -111,7 +121,7 @@ input {
 /* ---------- SECTIONS ---------- */
 
 .SECTION {
-    border:3px solid black;
+    /*border:3px solid black;*/
     margin: 10px;
     overflow: hidden;
 }
@@ -123,8 +133,6 @@ input {
 
     margin: 0;
 
-    font-size: 12px;
-
 }
 
 /*#endregion*/
@@ -134,8 +142,12 @@ input {
 
 #CONTACT {
 
-    padding: 5px;
-    /* border: 3px solid black; */
+    padding: 5px 15px;
+    margin: 10px 0;
+
+    border: none;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 
     display: flex;
     flex-direction: row;
@@ -167,7 +179,6 @@ input {
 }
 
 .contact_info{
-	font-size:12px;
 	margin: 0;
 	padding:0 0 0 10px;
 	white-space: nowrap;
@@ -227,8 +238,8 @@ input {
 .skillbar{
     display:flex;
     flex-direction: row;
-
     justify-content: space-between;
+    align-items: center;
 
     width: 95%;
     margin: 10px 0;
@@ -263,10 +274,10 @@ input {
 
 .skill_label {
 
-    width: 40px;
-    padding: 0 10px;
+    width: 100px;
+    padding: 0;
 
-    font-size: 15px;
+    font-size: 13px;
     text-align: left;
 
     border: none;
@@ -309,18 +320,13 @@ input {
 
 .skill_desc_title {
 
-    font-family: "Verdana", Arial;
-
     margin: 0;
-    margin-top: 10px;
-
-    font-size: 15px;
+    margin-top: 20px;
 
 }
 
 .skill_descriptions li {
 
-    font-size: 12px;
 
 }
 
@@ -361,7 +367,6 @@ input {
     
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
     align-items: center;
 
@@ -396,7 +401,7 @@ input {
 
 .experience_description {
 
-    width: 300px;
+    width: 60%;
 
     font-size: 12px;
 
@@ -404,7 +409,9 @@ input {
 
 #EXPERIENCE ul {
 
-    margin: 7.5px;
+    margin: 7.5px 0;
+
+    width: calc(100% - 40px);
 
 }
 
@@ -419,8 +426,8 @@ input {
 #timeline_line_container {
 
     position: absolute;
-    left: calc(35% + 0.1%); /* Change in tandem with left: in #timeline_point */
-    z-index: -100;
+    left: calc(35% + 0.03%); /* Change in tandem with left: in #timeline_point */
+    z-index: 50;
 
     display: flex;
     flex-direction: column;
@@ -430,9 +437,13 @@ input {
     width: 25px; /* Set to same width of timeline points (width + 2x border) */
     height: 100%;
 
+    overflow: visible;
+
 }
 
 #timeline_line{
+
+    position: relative;
 
     border-radius: 15px;
     width: 12px;
@@ -447,6 +458,7 @@ input {
 
     position: absolute;
     left: 35%;
+    z-index: 100;
 
     border-radius: 50%;
     border: black 5px solid;
@@ -459,6 +471,8 @@ input {
 #student_organization {
 
     font-size: 12px;
+    margin: 0;
+    margin-top: 10px;
 
 }
 
@@ -475,17 +489,13 @@ input {
 
 .project_title {
 
-    font-family: Verdana, Arial;
     margin: 0;
     margin-top: 10px;
-
-    font-size: 15px;
 
 }
 
 #PROJECTS li {
 
-    font-size: 12px;
 
 }
 
@@ -508,7 +518,6 @@ input {
 #EDUCATION p {
 
     margin: 0;
-    font-size: 12px;
 
 }
 
@@ -521,6 +530,7 @@ input {
 #education_time {
 
     font-style: italic;
+    margin-left: 7px;
 
 }
 
@@ -541,7 +551,6 @@ input {
 
 #INTERESTS p {
     
-    font-size: 12px;
     font-family: Cambria;
     margin: 0;
 
