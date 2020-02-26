@@ -23,57 +23,26 @@ body{
 /* ---------- GENERAL ---------- */
 /*#region*/
 
-h1 {
+    h1 {
 
-    font-family: Verdana, Arial;
-    font-weight: bold;
+        font-family: "Verdana", Arial;
+        font-weight: bold;
 
-    margin: 0;
-    margin-bottom: 10px;
+        margin: 0;
+        margin-bottom: 10px;
 
-}
+    }
 
-h2 {
+    h2 {
 
-    font-family: Verdana, Arial;
-    font-weight: bold;
-    font-size: 20px;
+        font-family: "Verdana", Arial;
+        font-weight: bold;
+        font-size: 20px;
 
-    margin: 0;
-    margin-bottom: 10px;
+        margin: 0;
+        margin-bottom: 10px;
 
-}
-
-p {
-    font-family: Cambria;
-}
-
-li {
-    font-family: Cambria;
-    list-style-image: url("./images/right-arrow.svg");
-}
-
-input {
-    font-family: Cambria;
-}
-
-/* Fonts */
-
-@font-face {
-
-    font-family: Cambria;
-    src: url(./style/Cambria.ttf)
-
-}
-
-@font-face {
-
-    font-family: Cambria;
-    src: url(./style/cambriab.ttf);
-    font-weight: bold;
-
-}
-
+    }
 
 /*#endregion*/
 
@@ -124,6 +93,7 @@ input {
     margin: 0;
 
     font-size: 12px;
+    font-family: Cambria;
 
 }
 
@@ -167,6 +137,7 @@ input {
 }
 
 .contact_info{
+	font-family: Cambria;
 	font-size:12px;
 	margin: 0;
 	padding:0 0 0 10px;
@@ -337,7 +308,7 @@ input {
 
 #EXPERIENCE {
 
-    flex-grow: 1;
+    flex-grow: 7;
 
     display: flex;
     flex-direction: column;
@@ -373,27 +344,6 @@ input {
 
 }
 
-
-.position_duration {
-
-    font-style: italic;
-    margin: 5px;
-
-}
-
-.position_title {
-    
-    font-weight: bold;
-    margin: 5px;
-
-}
-
-.position_company {
-
-    margin: 5px;
-
-}
-
 .experience_description {
 
     width: 300px;
@@ -402,17 +352,25 @@ input {
 
 }
 
-#EXPERIENCE ul {
+.experience_description li{
 
-    margin: 7.5px;
+    list-style-image: url("./images/right-arrow.svg");
+
+}
+
+.position_duration {
 
 }
 
-#student_organization {
-
-    font-style: italic;
+.position_title {
 
 }
+
+.position_company {
+
+}
+
+
 
 /* Timeline (Background) */
 
@@ -470,6 +428,7 @@ input {
 
 #PROJECTS {
 
+    flex-grow: 2;
 
 }
 
@@ -502,30 +461,33 @@ input {
 
 #EDUCATION {
 
+    flex-grow: 1;
 
 }
 
 #EDUCATION p {
 
     margin: 0;
-    font-size: 12px;
 
 }
 
 #education_school {
 
+    font-size: 12px;
     font-weight: bold;
 
 }
 
 #education_time {
 
+    font-size: 12px;
     font-style: italic;
 
 }
 
 #education_degree {
 
+    font-size: 12px;
 
 }
 
@@ -537,12 +499,13 @@ input {
 
 #INTERESTS {
 
+    flex-grow: 1;
+
 }
 
 #INTERESTS p {
     
     font-size: 12px;
-    font-family: Cambria;
     margin: 0;
 
     display: flex;
