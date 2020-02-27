@@ -526,8 +526,6 @@ input {
 
 #education_school {
 
-    font-weight: bold;
-
 }
 
 #education_time {
@@ -539,6 +537,7 @@ input {
 
 #education_degree {
 
+    font-weight: bold;
 
 }
 
