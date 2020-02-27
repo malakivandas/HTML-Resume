@@ -42,6 +42,8 @@ h2 {
     margin: 0;
     margin-bottom: 10px;
 
+    border-bottom: solid black 1px;
+
 }
 
 h3 {
@@ -184,7 +186,6 @@ input {
 	white-space: nowrap;
 }
 /*#endregion*/
-
 
 /* SKILLS */
 /*#region*/
@@ -374,7 +375,7 @@ input {
 
 .experience_info {
 
-    font-size: 12px;
+    font-size: 13px;
 
 }
 
@@ -387,6 +388,8 @@ input {
 }
 
 .position_title {
+
+    font-family: Verdana;
     
     font-weight: bold;
     margin: 5px;
@@ -426,7 +429,7 @@ input {
 #timeline_line_container {
 
     position: absolute;
-    left: calc(35% + 0.03%); /* Change in tandem with left: in #timeline_point */
+    left: calc(36% + 0.2%); /* Change in tandem with left: in #timeline_point */
     z-index: 50;
 
     display: flex;
@@ -457,7 +460,7 @@ input {
 #timeline_point{
 
     position: absolute;
-    left: 35%;
+    left: 36%;
     z-index: 100;
 
     border-radius: 50%;
@@ -567,12 +570,6 @@ input {
     padding: 5px;
 
 }
-
-
-/*#endregion*/
-
-/* TEMPLATE */
-/*#region*/
 
 
 /*#endregion*/
